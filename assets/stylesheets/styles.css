@@ -54,11 +54,16 @@ table {
 }
 
 /***** Global styles rules ***********/
+body {
+	font-family: Poppins;
+	font-size: 16px;
+}
 
 .container-fluid {
 	flex-wrap: nowrap !important;
 	padding-left: 0;
 	padding-right: 0;
+	position: relative;
 }
 
 main,
@@ -75,7 +80,6 @@ a {
 .nav {
 	flex-wrap: nowrap;
 	color: #000;
-	font-family: Poppins;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
@@ -91,6 +95,53 @@ a {
 
 /******* main *******/
 
+.name-container {
+	font-family: Poppins;
+	font-size: 2.5rem;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 3em;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+
+.intro p {
+	color: #727274;
+	font-family: Poppins;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.8em;
+	letter-spacing: 0em;
+	text-align: left;	
+}
+
+.social-network {
+	padding: 1em 0;
+}
+.social-network > .heading {
+	color: #525252;
+	font-family: Poppins;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.8em;
+	letter-spacing: 0;
+	text-align: left;
+	padding-bottom: 1.4em;
+}
+
+.social-network-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #f5612b;
+}
+
+
+
+/****** media query ******/
 @media only screen and (min-width: 720px) {
 	.container-fluid {
 		max-width: 90%;
