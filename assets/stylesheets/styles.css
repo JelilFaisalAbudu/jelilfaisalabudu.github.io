@@ -288,7 +288,29 @@ footer .submit-btn {
 	padding-bottom: 1.5em;
 }
 
+footer address > .email-address,
+footer .copyright {
+	color: #ffdacc;
+	font-weight: normal;
+	font-size: 1rem;
+	line-height: 24px;
+	text-align: center;
+}
 
+footer .social-network-nav {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	border-bottom: 0.13em solid #ffa07d;
+}
+
+footer .social-network-nav > .social-newwork-nav-link {
+	color: #fff;
+}
+
+.copyright {
+	display: inline-block;
+	padding: 1em 0;
+}
 
 
 
