@@ -141,7 +141,6 @@ p {
 .social-network-heading {
 	color: #525252;
 	font-size: 1rem;
-	
 	font-weight: 600;
 	line-height: 1.8em;
 	padding-bottom: 1.4em;
@@ -315,7 +314,7 @@ footer .social-network-nav > .social-newwork-nav-link {
 
 
 /****** media query ******/
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 768px) {
 	.container-fluid {
 		max-width: 90%;
 	}
