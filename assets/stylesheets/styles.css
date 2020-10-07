@@ -314,8 +314,27 @@ footer .social-network-nav > .social-newwork-nav-link {
 
 
 /****** media query ******/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 720px) {
 	.container-fluid {
 		max-width: 90%;
+	}
+
+	.bg-deco-right {
+		background-image: url("assets/images/project_screenshot.png");
+		background-repeat: no-repeat;
+		background-position: right top;
+	}
+
+	.lower-section {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.about-me {
+		max-width: 35%;
+	}
+
+	.tech-and-skills {
+		max-width: 50%;
 	}
 }
