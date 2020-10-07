@@ -246,6 +246,49 @@ p {
 
 /****** footer ******/
 
+footer {
+	background: #f9855b;
+	padding-top: 1.7em;
+	padding-bottom: 1.7em;
+	text-align: center;
+}
+
+footer .heading {
+	color: #fff;
+	font-weight: 800;
+	font-size: 1.75rem;
+	text-align: center;
+}
+
+footer p {
+	color: #fff;
+}
+
+footer .form-control {
+	background: #fff;
+	border: none;
+	border-radius: 0;
+	display: flex;
+	align-items: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+footer .submit-btn {
+	color: #fff;
+	background: #000000;
+	border: 0.06 solid #000000;
+	box-sizing: border-box;
+	border-radius: 0;
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1.07em;
+	text-align: center;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+
 
 
 
