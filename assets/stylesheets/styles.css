@@ -100,25 +100,30 @@ figure {
 
 /******* main *******/
 
-.name-container {
+.name {
 	font-family: Poppins;
 	font-size: 2.5rem;
 	
 	font-weight: 800;
-	line-height: 3em;
+	line-height: 2em;
 	letter-spacing: 0em;
 	text-align: left;
 
 }
 
-.intro p {
+section {
+	padding-top: 1.3em;
+	padding-bottom: 1.3em;
+}
+
+p {
 	color: #727274;
 	font-family: Poppins;
 	font-size: 1rem;
-	
 	font-weight: 400;
 	line-height: 1.8em;
 	letter-spacing: 0em;
+	padding: 1em 0;
 	text-align: left;	
 }
 
@@ -146,19 +151,17 @@ figure {
 	color: #f9855b;
 }
 
-.portfolio-section {
-	padding-top: 1.6em;
-	padding-bottom: 1.6em;
-}
-
-.portfolio-section > .heading {
+.section-heading {
 	font-size: 1.75rem;
-	
 	font-weight: 800;
 	line-height: 2em;
 }
 
-.portfolio-section figcaption {
+.portfolio-items-group {
+	padding: 1em 0;
+}
+
+.portfolio figcaption {
 	color: #fff;
 	font-size: 1.6rem;
 	
@@ -198,6 +201,18 @@ figure {
 	border: none;
 	color: #fff;
 	line-height: 1.5em;
+}
+
+.about-me .resume-link {
+	display: inline-block;
+	background: #f9855b;
+	width: 65%;
+	padding: 1.1em;
+	color: #fff;
+	font-size: 1rem;
+	line-height: 1.5em;
+	font-weight: bolder;
+	text-align: center;
 }
 
 
