@@ -261,6 +261,7 @@ footer .heading {
 
 footer p {
 	color: #fff;
+	text-align: center;
 }
 
 footer .form-control {
@@ -336,5 +337,19 @@ footer .social-network-nav > .social-newwork-nav-link {
 
 	.tech-and-skills {
 		max-width: 50%;
+	}
+
+	footer .container-fluid {
+		width: 50%;
+	}
+
+	.form-group-flex {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.form-group-flex .form-group {
+		width: 49%;
 	}
 }
