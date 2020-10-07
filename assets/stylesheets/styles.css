@@ -55,6 +55,7 @@ table {
 
 /***** Global styles rules ***********/
 body {
+	background: #e5e5e5;
 	font-family: Poppins;
 	font-size: 16px;
 	font-style: normal;
@@ -128,6 +129,7 @@ p {
 }
 
 .heading {
+	color: #000;
 	letter-spacing: 0;
 	text-align: left;
 }
@@ -135,7 +137,8 @@ p {
 .social-network {
 	padding: 1em 0;
 }
-.social-network > .heading {
+
+.social-network-heading {
 	color: #525252;
 	font-size: 1rem;
 	
@@ -214,6 +217,35 @@ p {
 	font-weight: bolder;
 	text-align: center;
 }
+
+.tech-and-skills .group {
+	border-bottom: 0.13em solid #cfd2da;
+	padding: 1.4em 0;
+}
+
+.tech-and-skills .group:last-child {
+	border: none;
+}
+
+.tech-and-skills .heading {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 105.3%;
+}
+
+.tech-and-skills .stack {
+	font-size: 1rem;
+	line-height: 2.13em;
+	color: #727274;
+	padding: 1em 0;
+}
+
+.tech-and-skills .item {
+	margin-right: 0.8em;
+}
+
+/****** footer ******/
+
 
 
 
