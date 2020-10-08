@@ -68,6 +68,10 @@ body {
 	position: relative;
 }
 
+main {
+	margin-top: 8em;
+}
+
 main,
 footer {
 	padding: 0.5em 1em;
@@ -114,7 +118,6 @@ figure {
 
 section {
 	padding-top: 1.3em;
-	padding-bottom: 1.3em;
 }
 
 p {
@@ -160,7 +163,7 @@ p {
 }
 
 .portfolio-items-group {
-	padding: 1em 0;
+	padding-top: 1em;
 }
 
 .portfolio figcaption {
@@ -315,15 +318,20 @@ footer .social-network-nav > .social-newwork-nav-link {
 
 
 /****** media query ******/
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 992px) {
 	.container-fluid {
 		max-width: 90%;
 	}
 
 	.bg-deco-right {
-		background-image: url("assets/images/project_screenshot.png");
+		background-image: url("../images/background_shapes_desktop_right.svg");
+		background-position: top right;
 		background-repeat: no-repeat;
-		background-position: right top;
+		position: relative;
+	}
+	
+	.intro {
+		width: 46%;
 	}
 
 	.lower-section {
@@ -351,5 +359,9 @@ footer .social-network-nav > .social-newwork-nav-link {
 
 	.form-group-flex .form-group {
 		width: 49%;
+	}
+
+	footer .social-network-nav {
+		justify-content: space-evenly;
 	}
 }
