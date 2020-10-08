@@ -164,6 +164,14 @@ p {
 
 .portfolio-items-group {
 	padding-top: 1em;
+	position: relative;
+}
+
+.portfolio figure {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%);
+border: 1px solid rgba(0, 0, 0, 0.05);
+box-sizing: border-box;
+padding: 2.5em;
 }
 
 .portfolio figcaption {
@@ -337,6 +345,20 @@ footer .social-network-nav > .social-newwork-nav-link {
 }
 
 @media only screen and (min-width: 768px) {
+	.see-project-button {
+		position: absolute;
+		bottom: 3%;
+		width: 45%;
+	} 
+
+	.portfolio .built-tools {
+		display: none;
+	}
+
+	.portfolio figure {
+		position: relative;
+	}
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -348,6 +370,7 @@ footer .social-network-nav > .social-newwork-nav-link {
 		background-image: url("../images/background_shapes_desktop_right.svg");
 		background-position: top right;
 		background-repeat: no-repeat;
+		background-size: contain;
 		position: relative;
 	}
 	
