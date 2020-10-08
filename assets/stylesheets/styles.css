@@ -318,6 +318,24 @@ footer .social-network-nav > .social-newwork-nav-link {
 
 
 /****** media query ******/
+
+@media only screen and (min-width: 576px) {
+	.intro .social-network-nav {
+		justify-content: flex-start;
+	}
+
+	.intro .social-newwork-nav-link {
+		margin-right: 2em;
+	}
+
+	footer .social-network-nav {
+		justify-content: space-evenly;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+}
+
 @media only screen and (min-width: 992px) {
 	.container-fluid {
 		max-width: 90%;
