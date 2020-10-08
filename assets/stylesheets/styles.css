@@ -181,6 +181,8 @@ p {
 
 .built-tools {
 	padding: 1.5em 0;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .built-tools > .tool {
@@ -191,6 +193,7 @@ p {
 	font-family: Poppins;
 	font-size: 0.9rem;
 	line-height: 1.3em;
+	margin: 0.3em;
 	padding: 0.3em;
 	vertical-align: middle;
 	text-align: center;
