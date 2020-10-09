@@ -343,9 +343,11 @@ footer .social-network-nav > .social-newwork-nav-link {
 	padding:  0 1.5em;
 }
 
-.small-pics-and-btn-wrapper {
+.small-pics-and-btn-wrapper,
+.buttons-wrapper {
 	padding: 1.5em 0;
 }
+
 
 .modal .btn {
 	background: #f9855b;
@@ -467,5 +469,18 @@ footer .social-network-nav > .social-newwork-nav-link {
 
 	.modal-dialog {
 		max-width: 75%;
+	}
+
+	.small-pics-and-btn-wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.small-pics-wrapper {
+		flex-basis: 70%;
+	}
+
+	.buttons-wrapper {
+		flex-basis: 20%;
 	}
 }
