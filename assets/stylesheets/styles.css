@@ -324,6 +324,37 @@ footer .social-network-nav > .social-newwork-nav-link {
 }
 
 
+/****** modals ******/
+
+.main-modal-img {
+	padding: 0;
+}
+
+.content-wrapper {
+	padding:  0 1.5em;
+}
+
+.small-pics-and-btn-wrapper {
+	padding: 1.5em 0;
+}
+
+.modal .btn {
+	background: #f9855b;
+	border: none;
+	border-radius: 0;
+	color: #fff;
+	font-weight: bolder;
+	font-size: 1rem;
+	line-height: 1.5em;
+	padding: 1em;
+	text-align: center;
+}
+
+.modal .btn > .icon {
+	float: right;
+}
+
+
 
 /****** media query ******/
 
