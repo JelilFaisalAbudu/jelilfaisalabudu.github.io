@@ -72,10 +72,6 @@ main {
 	margin-top: 8em;
 }
 
-main,
-footer {
-	padding: 0.5em 1em;
-}
 
 a {
 	color: inherit;
@@ -167,11 +163,12 @@ p {
 	position: relative;
 }
 
-.portfolio figure {
+.figure img {
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%);
-border: 1px solid rgba(0, 0, 0, 0.05);
-box-sizing: border-box;
-padding: 2.5em;
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	box-sizing: border-box;
+	padding: 2.5em;
+	z-index: 99999;
 }
 
 .portfolio figcaption {
@@ -363,7 +360,7 @@ footer .social-network-nav > .social-newwork-nav-link {
 
 @media only screen and (min-width: 992px) {
 	.container-fluid {
-		max-width: 90%;
+		width: 86%;
 	}
 
 	.bg-deco-right {
@@ -371,7 +368,15 @@ footer .social-network-nav > .social-newwork-nav-link {
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: contain;
+		/* position: absolute; */
+	}
+
+	.bg-deco-left {
+		background-image: url("../images/background_shapes_2_desktop_left_bottom.svg");
+		background-position: top left;
+		background-repeat: no-repeat;
 		position: relative;
+		top: 5%;
 	}
 	
 	.intro {
@@ -392,7 +397,7 @@ footer .social-network-nav > .social-newwork-nav-link {
 	}
 
 	footer .container-fluid {
-		width: 50%;
+		width: 36%;
 	}
 
 	.form-group-flex {
