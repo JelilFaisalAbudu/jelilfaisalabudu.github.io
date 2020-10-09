@@ -83,6 +83,16 @@ figure {
 
 /******* nav ********/
 
+.navbar {
+	padding-top: 1.3em;
+	padding-bottom: 1.3em;
+	z-index: 999999;
+}
+
+.navbar-bg-white {
+	background-color: #fff;
+}
+
 .nav {
 	flex-wrap: nowrap;
 	color: #000;
