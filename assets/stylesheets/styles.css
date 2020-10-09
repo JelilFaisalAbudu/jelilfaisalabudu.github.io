@@ -159,11 +159,12 @@ p {
 }
 
 .portfolio-items-group {
+	background-color: #e5e5e5;
 	padding-top: 1em;
 	position: relative;
 }
 
-.figure img {
+figure {
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%);
 	border: 1px solid rgba(0, 0, 0, 0.05);
 	box-sizing: border-box;
@@ -214,6 +215,7 @@ p {
 	border: none;
 	color: #fff;
 	line-height: 1.5em;
+	z-index: 999999;
 }
 
 .about-me .resume-link {
@@ -326,6 +328,13 @@ footer .social-network-nav > .social-newwork-nav-link {
 
 /****** modals ******/
 
+.modal {
+	z-index: 9999999999;
+}
+.modal-body {
+	padding-top: 0;
+}
+
 .main-modal-img {
 	padding: 0;
 }
@@ -350,11 +359,22 @@ footer .social-network-nav > .social-newwork-nav-link {
 	text-align: center;
 }
 
+.modal .close {
+	border-radius: 0;
+	background-color: #f9855b;
+	color: #fff;
+	opacity: 1;
+	position: absolute;
+	right: 0;
+	height: 2.82em;
+	width: 2.82em;
+	z-index: 999999;
+	
+}
+
 .modal .btn > .icon {
 	float: right;
 }
-
-
 
 /****** media query ******/
 
@@ -443,5 +463,9 @@ footer .social-network-nav > .social-newwork-nav-link {
 
 	footer .social-network-nav {
 		justify-content: space-evenly;
+	}
+
+	.modal-dialog {
+		max-width: 75%;
 	}
 }
