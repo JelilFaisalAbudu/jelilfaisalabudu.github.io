@@ -31,7 +31,7 @@
           &lt;Intro/&gt;
         </a>
         <a class="nav-link d-md-inline-block" href="#portfolio">Portfolio</a>
-        <a class="nav-link d-md-inline-block" href="#intro">About</a>
+        <a class="nav-link d-md-inline-block" href="#about">About</a>
         <a class="nav-link d-md-inline-block pr-0" href="#contact">Contact</a>
       </nav>
     </div>
@@ -102,22 +102,21 @@
               </div>
               <div class="portfolio-items-group col-12 col-md-6">
                 <figure>
-                  <img class="project-screenshot img-fluid" src="assets/images/using_bootstrap-removebg-preview.png" />
-                  <figcaption class="caption">Newsweek Clone</figcaption>
+                  <img class="project-screenshot img-fluid" src="assets/images/twitter_redesign_main-removebg-preview.png" />
+                  <figcaption class="caption">Twitter Redesign</figcaption>
                 </figure>
                 <div class="built-tools">
                   <span class="tool">HTML/CSS</span>
                   <span class="tool">Ruby on Rails</span>
-                  <span class="tool">JavaScript</span>
                 </div>
-                <button type="button" class="see-project-button" data-toggle="modal" data-target="#tnwModal">
+                <button type="button" class="see-project-button" data-toggle="modal" data-target="#twitterRedesignModal">
                   See project
                 </button>
               </div>
               <div class="portfolio-items-group col-12 col-md-4">
                 <figure>
-                  <img class="project-screenshot img-fluid" src="assets/images/tnw_main.png" alt="project_screenshot" />
-                  <figcaption class="caption">TNW</figcaption>
+                  <img class="project-screenshot img-fluid" src="assets/images/using_bootstrap-removebg-preview.png" alt="project_screenshot" />
+                  <figcaption class="caption">Newsweek Clone</figcaption>
                 </figure>
                 <div class="built-tools">
                   <span class="tool">HTML/CSS</span>
@@ -164,7 +163,7 @@
     </div>
     <div class=" bg-deco-left">
       <div class="lower-section container-fluid">
-        <section class="about-me">
+        <section id="about" class="scroll-check about-me">
           <h2 class="section-heading">About me</h2>
           <p>
             In three sentences describe who you are as a proffessional. Look
@@ -254,16 +253,63 @@
         </div>
       </div>
     </div>
+    <div class="modal fade" id="twitterRedesignModal" tabindex="-1" role="dialog" aria-labelledby="SchoolHub"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="modal-body row">
+            <img src="assets/images/twitter_redesign_detail.png" alt=" Twitter Redesign screenshot" class="main-modal-img col-12">
+            <div class="content-wrapper col-12">
+              <div class="small-pics-and-btn-wrapper">
+              <div class="small-pics-wrapper row">
+                <img src="assets/images/twitter_redesign_detail2.png" alt="Twitter Redesign Screenshot" class="small-pic col-4">
+                <img src="assets/images/twitter_redesign_detail.png" alt="" class="small-pic col-4">
+                <img src="assets/images/twitter_redesign_detail4.png" alt="Twitter Redesign Screenshot" class="small-pic col-4">
+              </div>
+              <div class="buttons-wrapper">
+                <a href="https://jelil-twitter-redesign.herokuapp.com/" class="btn btn-block">
+                  <span class="text">see live</span>
+                  <span class="icon">
+                    <i class="fas fa-external-link-alt fa-2x"></i>
+                  </span>
+                </a>
+                <a href="https://github.com/JelilFaisalAbudu/twitter-redesign/" class="btn btn-block">
+                  <span class="text">see source</span>
+                  <span class="icon">
+                    <i class="fab fa-github fa-2x"></i>
+                  </span>
+                </a>
+                </div>
+              </div>
+              
+              <div class="project-desc">
+                <h2 class="section-heading">Twitter Redesign</h2>
+                <div class="built-tools">
+                  <span class="tool">HTML/CSS</span>
+                  <span class="tool">Ruby on Rails</span>
+                </div>
+                <p class="pt-0">This web app is a desktop version of the popular social media network Twitter. It is an assessment(capstone) project that I've built to demonstrate mastery in the Ruby on Rails module of the Microverse curriculum after completing that particular module.</p>
+                <p class="pt-0">The requirements and the design specification were given by the assessment team of Microverse. The user logs in to the app, only by typing the username (a complex authenticated login is not a requirement). After the user has successfully logged in, he or she has can use a simple form to write and post a tweet. Every logged in user can view other users' profile and follow them. You can also stop following any user you previously follow. Your feed section always get updated by the posts of all the users you are following including yours(sorted by most-recent).</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
   </main>
   <footer>
-    <div class="container-fluid">
+    <section id="contact" class="container-fluid">
       <h2 class="heading">Interested in collaborating?</h2>
       <p>
         If you have an application you are interested in developing, a feature
         that you need built or a project that need coding, I’d love to help
         you with it.
       </p>
-      <form id="contact" action="get" class="contact-form">
+      <form action="get" class="contact-form">
         <div class="form-group-flex">
           <div class="form-group">
             <input type="text" name="" id="fullName" class="form-control full-name" required placeholder="Full Name*" />
@@ -319,7 +365,7 @@
         <i class="far fa-copyright"></i>
         2020
       </small>
-    </div>
+    </section>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
