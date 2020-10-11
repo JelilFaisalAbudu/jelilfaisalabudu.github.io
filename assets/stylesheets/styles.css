@@ -75,6 +75,7 @@ main {
 
 a {
 	color: inherit;
+	text-decoration: none;
 }
 
 figure {
@@ -228,6 +229,19 @@ figure {
 	z-index: 999999;
 }
 
+.icon:hover {
+	color: chocolate;
+	transition: transform 800ms ease-in-out;
+}
+
+.see-project-button:hover,
+.resume-link:hover {
+	background: chocolate;
+	transition: transform 1000ms ease-in-out;
+	box-shadow: 0.1em 0.1em 0.5em 0.1em rgb(156, 133, 116);
+	text-decoration: none;
+}
+
 .about-me .resume-link {
 	display: inline-block;
 	background: #f9855b;
@@ -328,6 +342,11 @@ footer .social-network-nav {
 
 footer .social-network-nav > .social-newwork-nav-link {
 	color: #fff;
+}
+
+footer .social-newwork-nav-link:hover {
+	color: rgb(139, 90, 55);
+	transition: transform 1000ms ease-in-out;
 }
 
 .copyright {
