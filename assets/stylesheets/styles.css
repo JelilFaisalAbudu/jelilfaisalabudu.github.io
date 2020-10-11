@@ -237,15 +237,15 @@ figure {
 
 .icon:hover {
 	color: chocolate;
-	transition: transform 800ms ease-in-out;
+	transition: color 0.15s ease-in-out;
 }
 
 .see-project-button:hover,
 .resume-link:hover {
-	background: chocolate;
-	transition: transform 1000ms ease-in-out;
+	background-color: chocolate;
 	box-shadow: 0.1em 0.1em 0.5em 0.1em rgb(156, 133, 116);
 	text-decoration: none;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .about-me .resume-link {
@@ -352,7 +352,7 @@ footer .social-network-nav > .social-newwork-nav-link {
 
 footer .social-newwork-nav-link:hover {
 	color: rgb(139, 90, 55);
-	transition: transform 1000ms ease-in-out;
+	transition: color .15s ease-in-out;
 }
 
 .copyright {
@@ -433,6 +433,7 @@ footer .social-newwork-nav-link:hover {
 	.see-project-button {
 		position: absolute;
 		bottom: 3%;
+		left: 4%;
 		width: 45%;
 	} 
 
