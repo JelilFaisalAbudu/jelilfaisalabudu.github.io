@@ -72,6 +72,12 @@ main {
 	margin-top: 8em;
 }
 
+main,
+footer {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
 
 a {
 	color: inherit;
@@ -85,8 +91,8 @@ figure {
 /******* nav ********/
 
 .navbar {
-	padding-top: 1.3em;
-	padding-bottom: 1.3em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 	z-index: 999999;
 }
 
