@@ -54,6 +54,11 @@ table {
 }
 
 /***** Global styles rules ***********/
+
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background: #e5e5e5;
 	font-family: Poppins;
