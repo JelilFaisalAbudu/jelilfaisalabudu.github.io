@@ -351,11 +351,11 @@ footer .social-network-nav {
 	border-bottom: 0.13em solid #ffa07d;
 }
 
-footer .social-network-nav > .social-newwork-nav-link {
+footer .social-network-nav > .social-network-nav-link {
 	color: #fff;
 }
 
-footer .social-newwork-nav-link:hover {
+footer .social-network-nav-link:hover {
 	color: rgb(139, 90, 55);
 	transition: color .15s ease-in-out;
 }
@@ -425,7 +425,7 @@ footer .social-newwork-nav-link:hover {
 		justify-content: flex-start;
 	}
 
-	.intro .social-newwork-nav-link {
+	.intro .social-network-nav-link {
 		margin-right: 2em;
 	}
 
