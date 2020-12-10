@@ -289,7 +289,7 @@ figure {
 .tech-and-skills .stack {
 	font-size: 1rem;
 	line-height: 2.13em;
-	color: #727274;
+	color: #3b3b42;
 	padding: 1em 0;
 }
 
@@ -300,7 +300,7 @@ figure {
 /****** footer ******/
 
 footer {
-	background: #f9855b;
+	background: #87451a;
 	padding-top: 1.7em;
 	padding-bottom: 1.7em;
 	text-align: center;
@@ -334,8 +334,8 @@ footer .submit-btn {
 	border: 0.06 solid #000000;
 	box-sizing: border-box;
 	border-radius: 0;
-	font-weight: 500;
-	font-size: 1rem;
+	font-weight: 700;
+	font-size: 1.4rem;
 	line-height: 1.07em;
 	text-align: center;
 	padding-top: 1.5em;
@@ -344,7 +344,7 @@ footer .submit-btn {
 
 footer address > .email-address,
 footer .copyright {
-	color: #ffdacc;
+	color: #fff;
 	font-weight: normal;
 	font-size: 1rem;
 	line-height: 24px;
@@ -354,7 +354,7 @@ footer .copyright {
 footer .social-network-nav {
 	padding-top: 1.5em;
 	padding-bottom: 1.5em;
-	border-bottom: 0.13em solid #ffa07d;
+	border-bottom: 0.13em solid #fefefe;
 }
 
 footer .social-network-nav > .social-network-nav-link {
@@ -362,7 +362,7 @@ footer .social-network-nav > .social-network-nav-link {
 }
 
 footer .social-network-nav-link:hover {
-	color: rgb(139, 90, 55);
+	color: #000;
 	transition: color .15s ease-in-out;
 }
 
