@@ -445,6 +445,10 @@ footer .social-network-nav-link:hover {
 }
 
 @media only screen and (min-width: 768px) {
+	.background-info p {
+		font-size: 1.4rem;
+	}
+	
 	.see-project-button {
 		position: absolute;
 		bottom: 3%;
