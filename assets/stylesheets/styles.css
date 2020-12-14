@@ -140,6 +140,11 @@ figure {
 
 }
 
+strong {
+	font-weight: 700;
+	color: #87451a;
+}
+
 section {
 	padding-top: 1.3em;
 }
