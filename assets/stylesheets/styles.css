@@ -494,6 +494,8 @@ footer .social-network-nav-link:hover {
 	.lower-section {
 		display: flex;
 		justify-content: space-between;
+		padding-top: 1.3em;
+		padding-bottom: 1.3em;
 	}
 
 	.about-me {
