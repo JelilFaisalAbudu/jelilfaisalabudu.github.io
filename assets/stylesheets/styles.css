@@ -30,6 +30,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+b {
+	font-weight: bolder;
+}
+
 body {
 	line-height: 1;
 }
@@ -248,7 +252,7 @@ figure {
 	border: none;
 	color: #fff;
 	line-height: 1.5em;
-	z-index: 999999;
+	z-index: 99999;
 }
 
 .icon:hover {
